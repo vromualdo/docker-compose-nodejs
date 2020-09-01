@@ -21,3 +21,7 @@ services:
       - ./frontend/dist/frontend:/usr/share/nginx/html/
     ports:
       - 8080:80
+
+
+#Executar na Raiz do Projeto
+docker-compose up
